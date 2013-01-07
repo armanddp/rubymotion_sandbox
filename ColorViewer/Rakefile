@@ -1,0 +1,10 @@
+# -*- coding: utf-8 -*-
+$:.unshift("/Library/RubyMotion/lib")
+require 'motion/project'
+
+Motion::Project::App.setup do |app|
+  # Use `rake config' to see complete project settings.
+  app.name = 'ColorViewer'
+  app.provisioning_profile = "/Users/armanddp/Library/MobileDevice/Provisioning Profiles/7F78DD18-9ECB-4142-A05A-F669EC376E8E.mobileprovision"
+  app.codesign_certificate = "iPhone Developer: Armand du Plessis (BMDK2A5W4C)"
+end
